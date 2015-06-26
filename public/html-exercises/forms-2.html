@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms 2</title>
+    </head>
+    
+    <body>
+        
+        <h1>Order Form</h1>
+        
+        <form action="">
+           
+            <fieldset>
+            
+                <legend>Customer Details</legend>
+                <label>Customer Name<input type="text" name="customername" required></label><br/>
+                <br/>
+                <label>Mobile Number<input type="text" name="mobilenumber" required></label><br/>
+                <br/>
+                <label>E-mail Address<input type="email" name="email"></label>
+                
+            </fieldset>
+            
+            <fieldset>
+                
+                <legend>Pizza Options</legend>
+                
+                <label>
+                Flavor:
+                <select name="flavor">
+                    <option value="hawaiian">Hawaiian</option>
+                    <option value="doublecheese">Double Cheese</option>
+                    <option value="margherita">Margherita</option>
+                    <option value="bbqbaconcheese">Barbeque Bacon Cheeseburger</option>
+                    <option value="pepperoniandcheese">Pepperoni and Cheese</option>
+                </select>
+                </label><br/>
+                <br/>
+                
+                Size:<br/>
+                <label><input type="radio" name="size" value="small"> Small </label>
+                <label><input type="radio" name="size" value="medium"> Medium </label>
+                <label><input type="radio" name="size" value="small"> Large </label><br/>
+                <br/>
+                
+                Extra Toppings:<br/>
+                <label><input type="checkbox" name="extoppings" value="bacon">Bacon</label>
+                <label><input type="checkbox" name="extoppings" value="cheese">Cheese</label>
+                <label><input type="checkbox" name="extoppings" value="onion">Onion</label>
+                <label><input type="checkbox" name="extoppings" value="mushroom">Mushroom</label>
+            
+            </fieldset>
+            
+            <fieldset>
+                
+                <legend>Delivery Details</legend>
+                
+                <label> Delivery date: <input type="date" name="dday" required></label><br/>
+                <br/>
+                
+                <label>Preferred delivery time: <input type="time" name="usr_time" required></label><br/>
+                <br/>
+                <label> Delivery address:<br/>
+                <textarea rows="10" cols="75" required>Type address here</textarea></label><br/>
+                
+            </fieldset>
+            
+            <br/>
+            <br/>
+            <button type="reset">Reset</button>  <button type="submit">Submit Order</button>
+            
+        </form>
+        
+    </body>
+</html>
