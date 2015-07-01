@@ -1,0 +1,53 @@
+h1 { 
+    line-height: 1.5em;\
+    margin: 0.5in;
+    } /*specifies the line height*/
+
+h2 { 
+    font-size: 1.2ex;
+    line-height: 3cm;
+    }
+
+h3 {
+     word-spacing: 4mm;
+    }
+    
+h4 {
+    font-size: 12pt;
+    }
+
+h5 {
+    font-size: 1pc;
+    border: 1px solid black;
+    width: 30%;
+    }
+    
+h6 {
+    font-size: 12px;
+    }
+
+p {
+    margin: 0px auto;/* this declaration makes the element center-aligned */
+    border: 1px solid black;
+    width: 80%;
+    font-size: 3em;
+    text-indent: 20px;
+    }
+    
+#main {
+    font-size: 14px;
+    }
+
+#main div {/* Applies to all div tags inside the tag with the id main */
+    font-size: 1.2em;
+    }
+
+.sup {
+    position: relative;
+    bottom: 1ex;
+    }
+
+.sub {
+    position: relative;
+    bottom: -1ex;
+    }
