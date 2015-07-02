@@ -1,0 +1,129 @@
+/*The font family of the text in the web page should be Arial. x
+The width of the whole container is 900px (excluding the padding). x
+The two shades of blue to be used are: #84befe (darker) and #cbe5ff (lighter)
+Each navigation tab changes color and background color when mouse hovers over it.
+The Like link in a rectangular box is fixed with top:200px and right:-5px. x
+The rest of the sizes are up to your judgement to make it look like the screenshots below.*/
+
+body {
+    font-family: Arial, sans-serif;
+    }
+
+.whole {
+    background-color: #cbe5ff;
+    width: 980px;
+    padding: 40px;
+    }
+    
+.header {}    
+
+.box {
+    width:200px;
+    height:200px;
+    background-color:white;
+    
+    float:left;
+    position:relative;
+    }
+    
+.preview {
+    width: 740px;
+    height: 400px;
+    background-color:#84befe;
+    
+    padding: 5px;
+    }
+
+.nav {
+    width:900px;
+    text-decoration:none;
+    color:white;
+    text-align:center;
+    position:relative;
+    left:40px;
+    }
+
+/*edit*/ {
+    width:100px;
+    background-color:#84befe;
+    padding:10px 70px 10px 70px;
+}
+
+.rect {
+    position: fixed;
+    top:200px;
+    right: -5px;
+    
+    border-style:dashed;
+    border-color: #84befe;    
+    }
+    
+
+.mid {
+    width:900px;
+    height:500px;
+    background-color: white;
+    
+    position:relative;
+    right:40px;
+    left:40px;
+    }
+    
+.last {
+    background-color: white;
+    width:900px;
+    height: 200px;
+    margin-bottom: 10px;
+    margin-top:10px;
+    
+    position:relative;
+    left:40px;
+    right:40px;
+    }
+    
+.left {
+    width:439px;
+    height:185px;
+    
+    border-style:dashed;
+    border-color: #84befe;
+    border-width:1px;
+    
+    margin:4px;
+    float:left;
+    }
+    
+.left-head {
+    background-color:#84befe;
+    width:429px;
+    height:50px;
+    
+    margin:5px;
+    }
+    
+.right {
+    width:439px;
+    height:185px;
+    
+    border-style:dashed;
+    border-color: #84befe;
+    border-width:1px;
+    
+    margin:4px;
+    float:right;
+    }
+    
+.right-head {
+    background-color:#84befe;
+    width:429px;
+    height:50px;
+    
+    margin:5px;
+    }
+.footer {
+    color: #84befe;
+    text-align: right;
+    
+    position: relative;
+    right:40px;
+    }
