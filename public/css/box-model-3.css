@@ -12,10 +12,15 @@ body {
 .whole {
     background-color: #cbe5ff;
     width: 980px;
-    padding: 40px;
+    margin:auto;
+    padding:40px;
     }
     
-.header {}    
+.header {
+    width:900px;
+    margin:auto;
+    padding-top:20px;
+    }    
 
 .box {
     width:200px;
@@ -24,14 +29,13 @@ body {
     
     float:left;
     position:relative;
+    top:30px;
     }
     
 .preview {
     width: 740px;
     height: 400px;
     background-color:#84befe;
-    
-    padding: 5px;
     }
 
 .nav {
@@ -64,9 +68,7 @@ body {
     height:500px;
     background-color: white;
     
-    position:relative;
-    right:40px;
-    left:40px;
+    margin:auto;
     }
     
 .last {
