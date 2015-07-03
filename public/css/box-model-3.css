@@ -7,6 +7,7 @@ The rest of the sizes are up to your judgement to make it look like the screensh
 
 body {
     font-family: Arial, sans-serif;
+    text-decoration:none;
     }
 
 .whole {
@@ -14,11 +15,16 @@ body {
     width: 980px;
     margin:auto;
     padding:40px;
+    padding-top:5px;
     }
     
 .header {
     width:900px;
+    height:350px;
+    
     margin:auto;
+    margin-bottom:10px;
+    
     padding-top:20px;
     }    
 
@@ -30,36 +36,79 @@ body {
     float:left;
     position:relative;
     top:30px;
+    
+    z-index:1;
     }
     
 .preview {
     width: 740px;
-    height: 400px;
+    height: 350px;
     background-color:#84befe;
+    
+    margin-left:159px;
+    
+    position:relative;
+    z-index:0;
+    }
+
+.container {
+    width:900px;
+    height:750px;
+    margin-bottom:15px;
+    margin:auto;
+    
+    position:relative;
+    }
+    
+a {
+    font-family:Arial, sans-serif;
+    text-decoration:none;
     }
 
 .nav {
-    width:900px;
-    text-decoration:none;
-    color:white;
     text-align:center;
-    position:relative;
-    left:40px;
-    }
-
-/*edit*/ {
-    width:100px;
-    background-color:#84befe;
-    padding:10px 70px 10px 70px;
+    margin:auto;
+    
+    width:900px;
+    background-color:black;
+    
 }
+    
+.nav a {
+    background-color:#84befe;
+    color:white;
+    
+    float:left;
+    display:inline;
+    width:178px;
+    padding-top:8px;
+    padding-bottom:8px;
+
+    border:1px white solid;
+    }
+    
+.nav a:hover, .nav a:active {
+    background-color:white;
+    color:#84befe;
+    }
 
 .rect {
     position: fixed;
     top:200px;
     right: -5px;
     
+    padding-top:10px;
+    
+    width:35px;
+    height:85px;
+    
     border-style:dashed;
-    border-color: #84befe;    
+    border-color: #84befe;  
+    text-align:center;
+    }
+    
+.rect a {
+    color:#84befe;
     }
     
 
@@ -69,6 +118,7 @@ body {
     background-color: white;
     
     margin:auto;
+    margin-bottom:10px;
     }
     
 .last {
@@ -77,10 +127,7 @@ body {
     height: 200px;
     margin-bottom: 10px;
     margin-top:10px;
-    
-    position:relative;
-    left:40px;
-    right:40px;
+    margin:auto;
     }
     
 .left {
