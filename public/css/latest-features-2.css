@@ -1,21 +1,29 @@
-/*The font family of the text in the web page should be Arial. x
-The width of the whole container is 900px (excluding the padding). x
-The two shades of blue to be used are: #84befe (darker) and #cbe5ff (lighter)
-Each navigation tab changes color and background color when mouse hovers over it.
-The Like link in a rectangular box is fixed with top:200px and right:-5px. x
-The rest of the sizes are up to your judgement to make it look like the screenshots below.*/
+/*Note: You cannot modify the html, only the style sheet! EXCEPT for adding a <link> tag for the Google Font.
+
+In this exercise, you will just improve your box-model-3.html. You'll just make use the properties discussed in latest-features-1.html.
+Details:
+X All text in the page should have a Google font "Comfortaa".
+X The class "rect" should have a rounded border of 10px.
+X Change the background of the class "whole" into a gradient fading from #84befe to white to the top.
+X The small white box should have a shadow of gray, horizontally and vertically offset by 5px and has a blur of 10px;
+X The text inside the class "preview" should have a font-size of 90px and shadow of gray, horizontally and vertically offset by 5px and has a blur of 10px.
+X The navigation tabs should have a rounded upper right corner of 15px.
+X The left-head and right-head should have a font-size of 30px, rounded bottom corners of 20px and gradient background fading from #84befe to lightblue towards the top.
+X Instead of color blue, the footer text should now be colored white.*/
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Comfortaa", sans-serif;
     text-decoration:none;
+	box-sizing:border-box;
     }
 
 .whole {
-    background-color: #cbe5ff;
+    background: linear-gradient(to top, #84befe, white);
     width: 980px;
-    margin:auto;
-    padding:40px;
-    padding-top:5px;
+	margin:auto;
+    padding:0px;
+	padding-top:20px;
+    padding-bottom: 50px;
     }
     
 .header {
@@ -32,6 +40,7 @@ body {
     width:200px;
     height:200px;
     background-color:white;
+	box-shadow: 5px 5px 10px gray;
     
     float:left;
     position:relative;
@@ -41,6 +50,10 @@ body {
     }
     
 .preview {
+	color:white;
+	font-size: 90px;
+	text-shadow: 5px 5px 10px gray;
+
     width: 740px;
     height: 350px;
     background-color:#84befe;
@@ -49,6 +62,10 @@ body {
     
     position:relative;
     z-index:0;
+	
+	padding-top: 70px;
+	padding-left: 90px;
+	box-sizing: border-box;
     }
 
 .container {
@@ -56,12 +73,12 @@ body {
     height:750px;
     margin-bottom:15px;
     margin:auto;
-    
-    position:relative;
+	
+	position:relative;
     }
     
 a {
-    font-family:Arial, sans-serif;
+    font-family:"Comfortaa", sans-serif;
     text-decoration:none;
     }
 
@@ -70,20 +87,21 @@ a {
     margin:auto;
     
     width:900px;
-    background-color:black;
-    
-}
+	height: 35px;
+	}
     
 .nav a {
     background-color:#84befe;
     color:white;
     
     float:left;
-    width: 19.799%;
+    display:inline;
+	width: 178px; /*width: 19.799%;*/
     padding-top:8px;
     padding-bottom:8px;
-
+	
     border:1px white solid;
+	border-radius: 0px 15px 0px 0px;
     }
     
 .nav a:hover, .nav a:active {
@@ -96,12 +114,15 @@ a {
     top:200px;
     right: -5px;
     
-    padding-top:10px;
+    padding-top:20px;
+	padding-bottom: 13px;
+	padding-left: 5px;
     
     width:35px;
     height:85px;
     
     border-style:dashed;
+	border-radius:10px;
     border-color: #84befe;  
     text-align:center;
     }
@@ -128,7 +149,19 @@ a {
     margin-top:10px;
     margin:auto;
     }
-    
+	
+.left-head, .right-head {
+	font-size: 30px;
+	color: white;
+	
+	border-radius: 0px 0px 20px 20px;
+	background: linear-gradient(to top, #84befe, lightblue);
+	
+	padding-left: 10px;
+	padding-top: 5px;
+	box-sizing: border-box;
+	}
+	
 .left {
     width:439px;
     height:185px;
@@ -145,7 +178,7 @@ a {
     background-color:#84befe;
     width:429px;
     height:50px;
-    
+	
     margin:5px;
     }
     
@@ -168,8 +201,9 @@ a {
     
     margin:5px;
     }
+	
 .footer {
-    color: #84befe;
+    color: white;
     text-align: right;
     
     position: relative;
