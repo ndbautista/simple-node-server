@@ -1,3 +1,7 @@
+body {
+    background-color: #00bcd4;
+}
+
 .brand-logo {
     margin-left:15px;
 }
@@ -8,4 +12,8 @@
 
 .read more {
     text-align: right;
+}
+
+#dropdown1 a {
+    text-color:amber;
 }
