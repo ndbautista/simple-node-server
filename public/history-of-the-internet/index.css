@@ -1,5 +1,6 @@
 body {
     background-color: #00bcd4;
+    font-family:"Roboto", sans-serif;
 }
 
 .brand-logo {
@@ -12,6 +13,10 @@ body {
 
 .read more {
     text-align: right;
+}
+
+.page-footer row {
+    margin-left:15px;
 }
 
 #dropdown1 a {
