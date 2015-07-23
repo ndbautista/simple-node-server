@@ -1,0 +1,27 @@
+body {
+    font-family:"Roboto", sans-serif;
+}
+
+img {
+    margin-top:20px;
+}
+
+.brand-logo {
+    margin-left:15px;
+}
+
+.slider {
+    margin-top: 30px;
+}
+
+.read more {
+    text-align: right;
+}
+
+.page-footer row {
+    margin-left:15px;
+}
+
+#dropdown1 a {
+    text-color:amber;
+}

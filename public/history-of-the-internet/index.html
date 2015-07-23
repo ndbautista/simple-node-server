@@ -36,7 +36,7 @@
     </head>
     
     
-    <body>
+    <body class="cyan">
         
         
         <!--NAVBAR-->
@@ -44,19 +44,19 @@
             
         <!-- Dropdown Structure -->
         <ul id="dropdown1" class="dropdown-content">
-             <li><a href="#!">History of the Internet</a></li>
+             <li><a href="index.html">History of the Internet</a></li>
              <li class="divider"></li>
-             <li><a href="#!">Modern Internet</a></li>
+             <li><a href="../modern-internet/index.html">Modern Internet</a></li>
              <li class="divider"></li>
-             <li><a href="#!">Extras</a></li>
+             <li><a href="../third-subproject/index.html">Crowd-sourcing</a></li>
         </ul>
         
         <nav>
             <div class="nav-wrapper cyan darken-2">
-                <a href="#!" class="brand-logo">CMSC2: Introduction to Internet</a>
+                <a href="index.html" class="brand-logo">CMSC2: Introduction to Internet</a>
                 
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="#!">About</a></li>
+                    <li><a onclick="Materialize.toast('Oops! Feature not available yet', 4000)">About</a></li>
                     <li><a class="dropdown-button" href="#!" data-beloworigin="true" data-activates="dropdown1">Projects<i class="material-icons right">arrow_drop_down</i></a></li>
                 </ul>
              </div>
@@ -69,73 +69,50 @@
         <div class="container">
           
           
+          <!--If refuses to work, then use simple image-->
+          <img src="images/header1.jpg" class="materialboxed" data-caption="Woman with an IBM 7084 // Exact source unknown" width="100%">
           
-          <div class="slider">
-    <ul class="slides">
-      <li>
-        <img src="http://lorempixel.com/580/250/nature/1"> <!-- random image -->
-        <div class="caption center-align">
-          <h3>This is our big Tagline!</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
-        <div class="caption left-align">
-          <h3>Left Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
-        <div class="caption right-align">
-          <h3>Right Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
-        <div class="caption center-align">
-          <h3>This is our big Tagline!</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-    </ul>
-  </div>
-          
-          
-          
+          <div class="card-panel">
+            <h2> The History of the Internet </h2>
+            <p>In this day and age, it's probably clear just how much of our lives depend on the internet. We shop online, interact online, and we even create online. But when did this all start? How did the internet come to be? On this website we answer a few questions--some that even I have been asking--that were answered in my computer science class.</p>
+            <p>Below are the discussion points tackled, feel free to skim over the overviews and read on.</p>
+          </div>
           
           <ul class="collapsible popout" data-collapsible="accordion">
       <li>
           <div class="collapsible-header amber accent-4"><i class="material-icons">flag</i>World War 2</div>
           <div class="collapsible-body white">
-            <p>Proceeding the second world war, a...</p>
-            <p><a href="world-war-2.html"> READ MORE </a></p>
+            <p> From the last days of World War 2 to the dawn of the Cold War, we take a quick look at the modes of communication used in the mid-1900's and the events that fuelled research and development.<br/>
+            <br/>
+            <a href="world-war-2.html"> READ MORE </a></p>
           </div>
       </li>
     
       <li>
         <div class="collapsible-header amber accent-4"><i class="material-icons">swap_horiz</i>Early Protocols</div>
         <div class="collapsible-body white">
-          <p>Since then, a number of initiatives have...</p>
-          <p><a href="early-protocols.html"> READ MORE </a></p>
+          <p> We try to understand the information superhighway, and just information gets from one point to another. We examine early protocols in sending and receiving data over the network. <br/>
+          <br/>
+          <a href="early-protocols.html"> READ MORE </a></p>
         </div>
       </li>
     
       <li>
         <div class="collapsible-header amber accent-4"><i class="material-icons">wifi_tethering</i>The First Internet</div>
         <div class="collapsible-body white">
-          <p>Therefore the internet is a group of networks...</p>
-          <p><a href="the-first-internet.html"> READ MORE </a></p>
+          <p>After the last wars of the twentieth century, we follow what happened to ARPANet as it no longer served for military defense. The internet's potential is on its way to reaization.<br/>
+          <br/>
+          <a href="the-first-internet.html"> READ MORE </a></p>
           </div>
       </li>
       
       <li>
         <div class="collapsible-header amber accent-4"><i class="material-icons">language</i>Early World Wide Web</div>
         <div class="collapsible-body white">
-          <p>Lorem ipsum dolor sit amet.</p>
-          <p><a href="early-world-wide-web.html"> READ MORE </a></p>
+          <p>The internet, much like it looks today, is now open to the general public. The World Wide Web ushers in a new era.<br/>
+          <br/>
+          
+          <a href="early-world-wide-web.html"> READ MORE </a>
           </div>
       </li>
     
@@ -148,17 +125,18 @@
          <footer class="page-footer cyan darken-2">
             <div class="row">
               <div class="col l6 s12">
-                <h5 class="white-text">an internet project</h5>
-                <h6 class="white-text">by nicolette d. bautista</h6>
-                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                <h5 class="white-text">an internet project //</h5>
+                <h6 class="white-text">nicolette d. bautista</h6>
+                <p class="grey-text text-lighten-4">A brief introduction and overview of the history of the internet as explained to a communication arts student. In partial fulfillment of the requirements for Computer Science 2 (CMSC2): Introduction to the Internet under Prof. TJ Monserrat.</p>
               </div>
               <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
+                <h5 class="white-text">Links //</h5>
+                <h6 class="white-text">History of the Internet</h6>
                 <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                  <li><a class="grey-text text-lighten-3" href="world-war-2.html">World War 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="early-protocols.html">Early Protocols</a></li>
+                  <li><a class="grey-text text-lighten-3" href="the-first-internet.html">The First Internet</a></li>
+                  <li><a class="grey-text text-lighten-3" href="early-world-wide-web.html">Early World Wide Web</a></li>
                 </ul>
             </div>
           </div>
@@ -183,8 +161,6 @@
         </ul>
         
         </div>
-        
-        
         
         
 	  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

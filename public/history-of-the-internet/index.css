@@ -1,6 +1,14 @@
 body {
-    background-color: #00bcd4;
     font-family:"Roboto", sans-serif;
+}
+
+img {
+    margin-top:25px;
+}
+
+.card-panel {
+    text-align: justify;
+    
 }
 
 .brand-logo {
@@ -17,8 +25,4 @@ body {
 
 .page-footer row {
     margin-left:15px;
-}
-
-#dropdown1 a {
-    text-color:amber;
 }

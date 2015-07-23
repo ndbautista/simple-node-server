@@ -7,7 +7,7 @@
         
         <!-- META-DATA -->
         <meta name="author" content="Nicolette D. Bautista">
-		<meta name="description" content="Subproject 1: Index">
+		<meta name="description" content="Subproject 1: Early Protocols">
 		<meta name="keywords" content="subproject, css, html, materialize, index">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
         
@@ -36,7 +36,7 @@
     </head>
     
     
-    <body>
+    <body class="cyan">
         
         
         <!--NAVBAR-->
@@ -44,21 +44,20 @@
             
         <!-- Dropdown Structure -->
         <ul id="dropdown1" class="dropdown-content">
-             <li><a href="#!">History of the Internet</a></li>
+             <li><a href="index.html">History of the Internet</a></li>
              <li class="divider"></li>
-             <li><a href="#!">Modern Internet</a></li>
+             <li><a href="../modern-internet/index.html">Modern Internet</a></li>
              <li class="divider"></li>
-             <li><a href="#!">Extras</a></li>
+             <li><a href="../third-subproject/index.html">Crowd-sourcing</a></li>
         </ul>
         
         <nav>
             <div class="nav-wrapper cyan darken-2">
-                <a href="#!" class="brand-logo">CMSC2: Introduction to Internet</a>
+                <a href="index.html" class="brand-logo">CMSC2: Introduction to Internet</a>
                 
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="sass.html">About</a></li>
+                    <li><a onclick="Materialize.toast('Oops! Feature not available yet', 4000)">About</a></li>
                     <li><a class="dropdown-button" href="#!" data-beloworigin="true" data-activates="dropdown1">Projects<i class="material-icons right">arrow_drop_down</i></a></li>
-                    <li><a href="badges.html">Contact</a></li>
                 </ul>
              </div>
         </nav>
@@ -69,8 +68,34 @@
         <!--MAIN-->
         <div class="container">
           
-          <h3>World War 2: The Dawn of the Internet</h3>
-          <p> First paragraph starts with an interesting... </p> 
+          
+          
+          <div class="card-panel white">
+            <h3>The First Internet</h3>
+            <h5><em> An Academic Network</em></h5>
+           
+            <p> ARPANet was developed by the Advanced Research Projects Agency (ARPA), it was a network that started out as an interconnection of four university computers--the University of California, the University of California Santa Barbara, the University of Utah and the Massachussets Institute of Techniology and Stanford Research Institute. The first message sent through this network of networks was from UCLA to SRI on October 29, 1969, logging in. As the connection failed mid-message, the only letters transmitted were <em>L</em> and <em>O</em>. Before this development, computers weren't considered as communication devices. It was until J. C. R. Licklider proposed a study, that it would soon become a reality.</p>
+            
+            <p> This began the journey of ARPANet from being a military construct to one for research and academe as more and more universities and research institutions were added to the network across the coasts of the United States. In 1971, Ray Tomlinson from Bolt Beranek and Newman (BBN) sent the first official intercomputer e-mail.</p>
+            
+            <p> Eventually, they were able to expand across oceans and establish a node in 1973 with the University of London and expand interconnectivity. This was made possible by satellite (SATNET). By 1977, there were 111 nodes on the ARPANET (www.livinginternet.com). Each node had an Interface Message Processor (IMP), a pre-decessor of today's Routers,  used to interconnect participant networks to the ARPANET.</p>
+            
+            <p> ARPANet expanded the horizons of possibilities and understanding. Other networks soon emerged, like Computer Scence Network (CSNet), Military Network (MILNET), and the National Science Foundation Network. The internet was quickly beginning to form as more and more people ventured and invested into internetwork connectivity. The NSFNet backbone was quickly changing the landscape of the soon-to-be internet. With the emergence of other networks, the usage of ARPANet eventually declined and shut down.</p>
+            
+            <p><a href="early-world-wide-web.html">We go on further towards present day as the internet develops and expands beyond the academe.</a></p>
+        
+          
+          
+          </div>
+          
+          
+          
+          <div class="card-panel amber accent-4">
+            <h5>Further Reading</h5>
+            <p>
+              ARPANET -- The First Internet. Retrieved from the http://www.livinginternet.com/i/ii_arpanet.htm
+            </p>
+            </div>
           
           
          
@@ -79,21 +104,21 @@
         <!--FOOTER-->
         
          <footer class="page-footer cyan darken-2">
-          <div class="nikki">
             <div class="row">
               <div class="col l6 s12">
-                <h5 class="white-text">Footer Content</h5>
-                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                <h5 class="white-text">an internet project //</h5>
+                <h6 class="white-text">nicolette d. bautista</h6>
+                <p class="grey-text text-lighten-4">A brief introduction and overview of the history of the internet as explained to a communication arts student. In partial fulfillment of the requirements for Computer Science 2 (CMSC2): Introduction to the Internet under Prof. TJ Monserrat.</p>
               </div>
               <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
+                <h5 class="white-text">Links //</h5>
+                <h6 class="white-text">History of the Internet</h6>
                 <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                  <li><a class="grey-text text-lighten-3" href="world-war-2.html">World War 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="early-protocols.html">Early Protocols</a></li>
+                  <li><a class="grey-text text-lighten-3" href="the-first-internet.html">The First Internet</a></li>
+                  <li><a class="grey-text text-lighten-3" href="early-world-wide-web.html">Early World Wide Web</a></li>
                 </ul>
-              </div>
             </div>
           </div>
           <div class="footer-copyright">
@@ -110,10 +135,10 @@
           <i class="large material-icons">favorite</i>
         </a>
         <ul>
-              <li><a class="btn-floating red" data-position="left" data-delay="50" data-tooltip="e-mail"><i class="material-icons">face</i></i></a></li>
-              <li><a class="btn-floating amber darken-1"><i class="material-icons">attach_file</i></a></li>
-              <li><a class="btn-floating green"><i class="material-icons">send</i></a></li>
-              <li><a class="btn-floating blue"><i class="material-icons">subject</i></a></li>
+              <li><a href="https://www.facebook.com/nicolettedbautista" class="btn-floating red" data-position="left" data-delay="50" data-tooltip="e-mail"><i class="material-icons">face</i></i></a></li>
+              <li><a href="mailto:nicolettedbautista@gmail.com" class="btn-floating amber darken-1"><i class="material-icons">attach_file</i></a></li>
+              <li><a href="https://twitter.com/nikkiwanders" class="btn-floating green"><i class="material-icons">send</i></a></li>
+              <li><a href="https://of-nicolette.blogspot.com/" class="btn-floating blue"><i class="material-icons">subject</i></a></li>
         </ul>
         
         <!-- javascript popup-->

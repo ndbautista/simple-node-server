@@ -7,7 +7,7 @@
         
         <!-- META-DATA -->
         <meta name="author" content="Nicolette D. Bautista">
-		<meta name="description" content="Subproject 1: Index">
+		<meta name="description" content="Subproject 1: Early Protocols">
 		<meta name="keywords" content="subproject, css, html, materialize, index">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
         
@@ -36,7 +36,7 @@
     </head>
     
     
-    <body>
+    <body class="cyan">
         
         
         <!--NAVBAR-->
@@ -44,21 +44,20 @@
             
         <!-- Dropdown Structure -->
         <ul id="dropdown1" class="dropdown-content">
-             <li><a href="#!">History of the Internet</a></li>
+             <li><a href="index.html">History of the Internet</a></li>
              <li class="divider"></li>
-             <li><a href="#!">Modern Internet</a></li>
+             <li><a href="../modern-internet/index.html">Modern Internet</a></li>
              <li class="divider"></li>
-             <li><a href="#!">Extras</a></li>
+             <li><a href="../third-subproject/index.html">Crowd-sourcing</a></li>
         </ul>
         
         <nav>
             <div class="nav-wrapper cyan darken-2">
-                <a href="#!" class="brand-logo">CMSC2: Introduction to Internet</a>
+                <a href="index.html" class="brand-logo">CMSC2: Introduction to Internet</a>
                 
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="sass.html">About</a></li>
+                    <li><a onclick="Materialize.toast('Oops! Feature not available yet', 4000)">About</a></li>
                     <li><a class="dropdown-button" href="#!" data-beloworigin="true" data-activates="dropdown1">Projects<i class="material-icons right">arrow_drop_down</i></a></li>
-                    <li><a href="badges.html">Contact</a></li>
                 </ul>
              </div>
         </nav>
@@ -69,8 +68,43 @@
         <!--MAIN-->
         <div class="container">
           
-          <h3>World War 2: The Dawn of the Internet</h3>
-          <p> First paragraph starts with an interesting... </p> 
+          
+          
+          <div class="card-panel white">
+            <h3>Early Protocols</h3>
+            <h5><em> Snail Mail on Red Bull </em></h5>
+           
+            <p> Just <em>how</em> does information get sent through the internet? There are a number of protocols that dictate the mode of transport; packet switching is by far today's primary means for data communications worldwide. </p>
+            
+            <p> Packet switching involved cutting blocks of data into smaller transmittable chunks of information called packets Packets are then sent separately through the network. The bits of data travel different routes and arrive to their destination in a different order than they were sent because of the different routes. This takes longer to assemble, but more secure.</p>
+            
+            <p> There's also another way to send packets. It used to be that all packets were sent via the same route. This made is susceptible to interception. Because these packets all followed the same route, hackers can intercept and assemble the information. </p>
+            
+            <p> If you think about it, internet protocols are a lot like the mailing system. When you post snail mail, you put your deliverables in an envelope or a box to be shipped. If the item is too big to be shipped in one go, you disassemble it and ship the parts separately to be assembled at the destination. You mark each part, so as to make the assemblage easier at the other end. You post the stamps and the mailing address, so the post office knows where to send it. </p>
+            
+            <p> This is also what happens when you send a file over a network, it is disassembled. "The IP (Internet Protocol) packages, labels and sends [the Packets] on its way", as so aptly put in this <a href="https://youtu.be/HOaIqQAeaik">video</a>. When you drop off your deliverables at the post-office, they input your information into the record, the sender's name and address, and the receiver's name and address. They then configure the logistics of your package and send it on its way.</p>
+            
+            <p> Unless a package is sent through courier or express mail, it doesn't go straight into the recepient's hands. It passes through several hands at several offices until it reaches its destination. From your local post office, your package will be brought to the regional post office to be re-sorted and passed on. After the IP sends your Packets on its way, it will be launched into the Local Area Network (LAN). The LAN connects computers within the vicinity--most likely a residence, school, laboratory, or office building.</p>
+            
+            <p> You package goes through sorting once more, if your package is to be delivered within the region, it will be picked up for delivery to the nearest post office for pick-up or delivery. But if it has not quite yet reached its destination, it is passed to the national post office. Likewise, if your file was intended for an officemate or teacher, then your Packets will go no further and be routed to the computer. If you're uploading a file onto the internet, though, the journey is not yet complete. The Router, along with the Router Switch, will redirect packets into another network towards their destination.</p>
+            
+            <p> Along the way, your deliverables will be checked for security purposes, it may be subjected to a scan or whatnot. Some third parties like Proxies or Firewalls, as used by some companies, also do the same. If it does not pass, the request in the packet will be denied. If it passes, it goes on into the internet.</p>
+            
+            <p> The Packets will pass from network to network just as a package will pass from post-office to post-office.  When it finally reaches its destination, it is unpacked and assembled.</p>
+            
+            <p> A lot more happens as there are different levels at work but the next time, when you open up your blog or send a tweet, you can think about a five-thousand piece jigsaw puzzle sent like tiny little envelopes getting sent to tiny little mailboxes to be opened and assembled. All within the bat of an eyelash.</p>
+          
+          
+          </div>
+          
+          
+          
+          <div class="card-panel amber accent-4">
+            <h5>Further Reading</h5>
+            <p>
+              How TCP/IP Works. Retrieved from https://www.youtube.com/watch?t=741&v=HOaIqQAeaik
+            </p>
+            </div>
           
           
          
@@ -79,21 +113,21 @@
         <!--FOOTER-->
         
          <footer class="page-footer cyan darken-2">
-          <div class="nikki">
             <div class="row">
               <div class="col l6 s12">
-                <h5 class="white-text">Footer Content</h5>
-                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                <h5 class="white-text">an internet project //</h5>
+                <h6 class="white-text">nicolette d. bautista</h6>
+                <p class="grey-text text-lighten-4">A brief introduction and overview of the history of the internet as explained to a communication arts student. In partial fulfillment of the requirements for Computer Science 2 (CMSC2): Introduction to the Internet under Prof. TJ Monserrat.</p>
               </div>
               <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
+                <h5 class="white-text">Links //</h5>
+                <h6 class="white-text">History of the Internet</h6>
                 <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                  <li><a class="grey-text text-lighten-3" href="world-war-2.html">World War 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="early-protocols.html">Early Protocols</a></li>
+                  <li><a class="grey-text text-lighten-3" href="the-first-internet.html">The First Internet</a></li>
+                  <li><a class="grey-text text-lighten-3" href="early-world-wide-web.html">Early World Wide Web</a></li>
                 </ul>
-              </div>
             </div>
           </div>
           <div class="footer-copyright">
@@ -110,10 +144,10 @@
           <i class="large material-icons">favorite</i>
         </a>
         <ul>
-              <li><a class="btn-floating red" data-position="left" data-delay="50" data-tooltip="e-mail"><i class="material-icons">face</i></i></a></li>
-              <li><a class="btn-floating amber darken-1"><i class="material-icons">attach_file</i></a></li>
-              <li><a class="btn-floating green"><i class="material-icons">send</i></a></li>
-              <li><a class="btn-floating blue"><i class="material-icons">subject</i></a></li>
+              <li><a href="https://www.facebook.com/nicolettedbautista" class="btn-floating red" data-position="left" data-delay="50" data-tooltip="e-mail"><i class="material-icons">face</i></i></a></li>
+              <li><a href="mailto:nicolettedbautista@gmail.com" class="btn-floating amber darken-1"><i class="material-icons">attach_file</i></a></li>
+              <li><a href="https://twitter.com/nikkiwanders" class="btn-floating green"><i class="material-icons">send</i></a></li>
+              <li><a href="https://of-nicolette.blogspot.com/" class="btn-floating blue"><i class="material-icons">subject</i></a></li>
         </ul>
         
         <!-- javascript popup-->

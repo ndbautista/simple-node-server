@@ -7,7 +7,7 @@
         
         <!-- META-DATA -->
         <meta name="author" content="Nicolette D. Bautista">
-		<meta name="description" content="Subproject 1: Index">
+		<meta name="description" content="Subproject 1: Early Protocols">
 		<meta name="keywords" content="subproject, css, html, materialize, index">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
         
@@ -36,7 +36,7 @@
     </head>
     
     
-    <body>
+    <body class="cyan">
         
         
         <!--NAVBAR-->
@@ -44,21 +44,20 @@
             
         <!-- Dropdown Structure -->
         <ul id="dropdown1" class="dropdown-content">
-             <li><a href="#!">History of the Internet</a></li>
+             <li><a href="index.html">History of the Internet</a></li>
              <li class="divider"></li>
-             <li><a href="#!">Modern Internet</a></li>
+             <li><a href="../modern-internet/index.html">Modern Internet</a></li>
              <li class="divider"></li>
-             <li><a href="#!">Extras</a></li>
+             <li><a href="../third-subproject/index.html">Crowd-sourcing</a></li>
         </ul>
         
         <nav>
             <div class="nav-wrapper cyan darken-2">
-                <a href="#!" class="brand-logo">CMSC2: Introduction to Internet</a>
+                <a href="index.html" class="brand-logo">CMSC2: Introduction to Internet</a>
                 
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="sass.html">About</a></li>
+                    <li><a onclick="Materialize.toast('Oops! Feature not available yet', 4000)">About</a></li>
                     <li><a class="dropdown-button" href="#!" data-beloworigin="true" data-activates="dropdown1">Projects<i class="material-icons right">arrow_drop_down</i></a></li>
-                    <li><a href="badges.html">Contact</a></li>
                 </ul>
              </div>
         </nav>
@@ -69,8 +68,50 @@
         <!--MAIN-->
         <div class="container">
           
-          <h3>World War 2: The Dawn of the Internet</h3>
-          <p> First paragraph starts with an interesting... </p> 
+          
+          
+          <div class="card-panel white">
+            <h3>Early World Wide Web</h3>
+            <h5><em> The New Land of Opportunity</em></h5>
+           
+            <p> As the computer science world bid goodbye to the ARPANET and eventually NSFNet, the World Wide Web opened the internet's doors to the general public. Created by Tim Berners-Lee, a computer scientist at <em>Conseil Européen pour la Recherche Nucléaire</em> (European Organization for Nuclear Research, CERN), the World Wide Web is what we more commonly refer to as the internet. This changed the way information was accessed. His proposal for information management made it so that information could be accessed by hyperlinks. The World Wide Web made the internet more accessible to the general public by revamping the way information was accessed. This eventually fostered the creation of an interface that translated computer data into text and images through the web browser. </p>
+            
+            <p> If the first transmitted message via the internet was supposed to be LOGIN, then the World Wide Web's first website was <em>info.CERN.ch.</a></em> Amusing, is the fact that if you had accidentally shut down Tim Berners-Lee's computer, you would have shut down the internet. That much power is bound to drive you just a bit zany. In a video from VSauce, Michael acknowledges the abundance of ocean and aquatic terminologies attributed or analogized to the World Wide Web. Goes to show you just how much of a mind-blowing concept the internet is today. Personally, I have a bias towards the ocean and the analogies made of it.</p>
+            
+            <p> In this period, as the twentieth century came to a close, the internet was just showing us the tip of the iceberg of what we could accomplish. As we ushered in the new millenium with uncertainty and exploration, we usher in the Information Age and the era of modern internet.</p>
+          
+          </div>
+          
+           <ul class="collapsible popout" data-collapsible="accordion">
+      <li>
+          <div class="collapsible-header amber accent-4"><i class="material-icons">web</i>Web Browsers: A Quick Runthrough</div>
+          <div class="collapsible-body white">
+            <p> Here's a quick list of web browsers that made an impact on the World Wide Web:<br/>
+            <br/>
+                
+                ---- Line Browser; had no interface, only worked on commandline<br/>
+                ---- Viola<br/>
+                ---- Next Step<br/>
+                ---- MOSAIC Browser; accessible to many computer units and had new features such as images and bookmarks<br/>
+                             became the basis of design for web browsers today;<br/>
+                ---- Netscape Navigator Browser<br/>
+                ---- Internet Explorer; Windows '95 or '98 bundled IE with their OS; IE6, most infamous among developers<br/>
+                ---- Phoenix0.1 Browser; used Netscape as a basis<br/>
+                ---- Phoenix1.0 (Mozilla Firefox)<br/>
+                ---- Google Chrome<br/>
+                ---- Safari<br/>
+                
+              </p>
+          </div>
+      </li>
+          </ul>
+          
+          <div class="card-panel amber accent-4">
+            <h5>Further Reading</h5>
+            <p>
+             The Web is not the Net. Retrieved from the https://www.youtube.com/watch?t=54&v=scWj1BMRHUA
+            </p>
+            </div>
           
           
          
@@ -79,21 +120,21 @@
         <!--FOOTER-->
         
          <footer class="page-footer cyan darken-2">
-          <div class="nikki">
             <div class="row">
               <div class="col l6 s12">
-                <h5 class="white-text">Footer Content</h5>
-                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                <h5 class="white-text">an internet project //</h5>
+                <h6 class="white-text">nicolette d. bautista</h6>
+                <p class="grey-text text-lighten-4">A brief introduction and overview of the history of the internet as explained to a communication arts student. In partial fulfillment of the requirements for Computer Science 2 (CMSC2): Introduction to the Internet under Prof. TJ Monserrat.</p>
               </div>
               <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
+                <h5 class="white-text">Links //</h5>
+                <h6 class="white-text">History of the Internet</h6>
                 <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                  <li><a class="grey-text text-lighten-3" href="world-war-2.html">World War 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="early-protocols.html">Early Protocols</a></li>
+                  <li><a class="grey-text text-lighten-3" href="the-first-internet.html">The First Internet</a></li>
+                  <li><a class="grey-text text-lighten-3" href="early-world-wide-web.html">Early World Wide Web</a></li>
                 </ul>
-              </div>
             </div>
           </div>
           <div class="footer-copyright">
@@ -110,10 +151,10 @@
           <i class="large material-icons">favorite</i>
         </a>
         <ul>
-              <li><a class="btn-floating red" data-position="left" data-delay="50" data-tooltip="e-mail"><i class="material-icons">face</i></i></a></li>
-              <li><a class="btn-floating amber darken-1"><i class="material-icons">attach_file</i></a></li>
-              <li><a class="btn-floating green"><i class="material-icons">send</i></a></li>
-              <li><a class="btn-floating blue"><i class="material-icons">subject</i></a></li>
+              <li><a href="https://www.facebook.com/nicolettedbautista" class="btn-floating red" data-position="left" data-delay="50" data-tooltip="e-mail"><i class="material-icons">face</i></i></a></li>
+              <li><a href="mailto:nicolettedbautista@gmail.com" class="btn-floating amber darken-1"><i class="material-icons">attach_file</i></a></li>
+              <li><a href="https://twitter.com/nikkiwanders" class="btn-floating green"><i class="material-icons">send</i></a></li>
+              <li><a href="https://of-nicolette.blogspot.com/" class="btn-floating blue"><i class="material-icons">subject</i></a></li>
         </ul>
         
         <!-- javascript popup-->
