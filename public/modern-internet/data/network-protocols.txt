@@ -1,0 +1,17 @@
+            Network Protocols
+            From Point A to B
+          
+   
+   In this post, we discussed the early protocols of the internet. As the internet expanded and innovated, its demands becamse more sophisticated and diverse that they needed to standardize a bit for compatibility worldwide. This created the Open System Interconnection (OSI), a conceptual framework. The International Organization for Standardization created OSI in 1977. Every packet being sent or received has seven (7) layers--Application, Presentation, Session, Transport, Network, Data Link, and Physical.
+            
+   Physical, communicates the data in electrical impulse, light or radio signal, through binary. In the olden days, it was in the form of a lightbulb that turned on for 1 and off for 0. The Data Link layer encodes the information onto the packets. The Network layer determines the routes of the packets' path.
+            
+   The Transport layer is where the TCP/IP occurs. This layers lets multiple applications use one connection simultaneously. UDP, TCP and IP are datagram protocols with their own distinct characteristics. UDP has smaller packet sizes, and does not need a connection to create and maintain. UDP gives you more power over when data is sent. However, UDP does not deliver packets in order and does not recover or replace corrupted files but will notify the application. TCP is more reliable as it requires a connection. The TCP datagram protocol functions on a three-way handshake. A request is sent, SYN; an acknowledgement is replied, ACK; then, the connection is established, SYNACK. Packet delivery is done in order.
+            
+   The Session layer initiates, maintains and terminates any connections. The Presentation layer deals with the encryption and translating the packet to a form that the application can use. The last is the Application layer, the data is composited here and delivered to the user.
+            
+   Now that we discussed briefly how the OSI Model works, just how does the Network layer know where to send the packets? Well, this is thanks to the "url" from the Domain Name System (DNS).
+            
+   The Domain Name System makes it easy and efficient for users to find content on the internet. By assigning sites and pages their own names allows for visitors without having to go through the confusion of memorizing and typing in the IP address. The DNS, instead, translates the given IP into a simple www.example.com.
+            
+   Whenever you input an address, like www.me.com, your browser and operating system will check if they have it in the system. They check the cache--a nifty little pocket of memory, by the way. If they don't find it in your system, they ask a Resolving Name Server for www.me.com. and the RNS checks its memory for the root. If it is not in the RNS, then they will redirect your query to the Top Level Domain name servers or COM servers. The RNS will save the query to its cache however. At the TLD servers, if they do not know where the site is, then they hand the query over to the Authoritative name servers for "me.com". The Authoritative Name Server will, in turn, give the IP address to the past servers to hand to you. The browser will make the connection and take you to your site.

@@ -1,0 +1,13 @@
+            Search Engines
+            "Wait, Let Me Google It."
+          
+
+    It's like a card catalog at the library. Well, not really. It's like the table of contents in a really big book. No, not really, either. It's not like the bibliography either. It's more like the indices at the back where page numbers are listed under topics you can look up. What search engines like Google and Yahoo! do is "crawl" the World Wide Web, indexing each visitable page. This is probably why the software used are called spiders. Before the software, however, indexing and crawling was done manually, this became a problem as the web grew and the number of pages on the World Wide Web increased exponentially.
+            
+    When you search for something, like for example, "manatees", the search engine will look for every entry in their index for the results. So, essentially,  you aren't really <em>searching</em> the Web as you are searching though Google's index of the web. This of course, may be a problem if for some reason the website you're searching for unlisted.
+            
+    The way search engines sort through their results to give you the more relevant and most reliable pages is what sets search engines apart. Google has a Search Quality team apart that works with the algorithms. One such algorithm is PageRank. PageRank is named after Larry Page and what it does is quantify the relevance of a page based on a few factors. It takes into account the number of times the search word is mentioned in the document, how many visits and the number of pages that link to it, apart from many other things.
+            
+    Search results may also vary on past search results and recorded preferences, filtering and offering suggestions for possible searches. The usual search result shows the title of the page, the url, and a quick peek at the most relevant phrase--sometimes it's the first phrase on the site.
+            
+    Search engines today have, in a way, changed the way we think. If we have a question, the answer is just a click away.

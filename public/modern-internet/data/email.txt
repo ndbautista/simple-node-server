@@ -1,0 +1,7 @@
+            E-mail
+            You've Got Mail
+
+   
+    Google Mail, Hotmail, Yahoo! Mail, Rocket Mail, AOL, and so on and so on, there are many ways to get mail through the internet. These are examples of Mail User Agent. As soon as you hit 'send', the message is sent by the Mail Delivery Agent. If the recipient is local, then the MDA passes the message on to the local user. If not, the MDA will pass it over to the network cloud, the internet. Mail Transfer Agents will route the message through the proper servers. If all goes well, it will pass through without being lumped along with the SPAM or blocked by the firewall. As the message passes through server to server, host to host, the address is checked and re-checked.
+            
+    Routing depends on server availability. When the mail gets passed over the Mail Exchange, its journey is almost done. It gets handed over to the MUA of the recipient where the recipient can read the message.

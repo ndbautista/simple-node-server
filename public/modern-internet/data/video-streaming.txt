@@ -1,0 +1,6 @@
+            Video Streaming
+            
+            
+        If you're a fan of YouTubers or if you stream your shows online, then you know the prolonged agony of waiting for the video to buffer. Video files are large and if we loaded them from beginning to end, we may have to wait a long time before you can watch a very short clip. To be more efficient, video streaming works in that the video is loaded in chunks so that you can watch, while the rest of the chunks are loading--simultaneously.
+            
+        To get more technical, there are words thrown around like 'time-based' and 'multi-processed'. What a comparison to a little less than a century ago when computers were batch-processors. The way video-streaming works is that the FLV or MP4, is cut down into easy-to-load pieces. These FLV packets hold the bits of H.264 encoded data that is your video. If you've ever had to render a video, you might have encountered this term before. The transport used is RTMP which stands for Real Time Messaging Protocol. The player that you used will now then assemble these chunks as dictated by the M3U8. It's systematic and efficient.
